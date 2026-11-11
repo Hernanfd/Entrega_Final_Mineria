@@ -1,0 +1,20 @@
+# Entornos virtuales
+.venv/
+venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Archivos temporales de notebooks
+.ipynb_checkpoints/
+
+# Variables de entorno y posibles credenciales
+.env
+.env.*
+
+# Archivos generados al construir el paquete
+build/
+dist/
+*.egg-info/
