@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esperanto-nlp-equipo"
+version = "0.1.0"
+description = "Modelo NLP basado en reglas para textos en Esperanto"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+esperanto_nlp = ["recursos/*.json", "recursos/*.txt"]
