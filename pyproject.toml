@@ -8,10 +8,20 @@ version = "0.1.0"
 description = "Modelo NLP basado en reglas para textos en Esperanto"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "requests>=2.31,<3",
+    "beautifulsoup4>=4.12,<5",
+    "openpyxl>=3.1,<4",
+    "scikit-learn>=1.7,<2",
+    "threadpoolctl>=3.2,<4",
+    "joblib>=1.4,<2",
+    "pandas>=2.2,<3",
+    "matplotlib>=3.9,<4",
+    "numpy>=1.26,<3"
+]
 
 [project.optional-dependencies]
-dev = ["pytest"]
+dev = ["pytest", "ipykernel"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
