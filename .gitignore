@@ -26,3 +26,22 @@ dist/
 
 # Archivos temporales de Excel
 ~$*.xlsx
+
+# Modelos entrenados
+data/modelos/
+*.joblib
+
+# Resultados generados
+data/resultados/
+resultados/
+
+# Dataset procesado regenerable
+data/procesados/
+
+# Archivos temporales
+pagina_prueba.html
+data/originales.zip
+data/originales/parrafos_prueba.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
